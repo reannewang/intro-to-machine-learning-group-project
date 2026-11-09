@@ -1,1 +1,10 @@
+(i) Build two threshold-dependent binary classifiers based on the decision rule s(x, y) > T:
+One using pairs of left-left profiles taken in different years, and one using pairs of right-left
+profiles taken in different years. There is no training stage; evaluate each classifier using
+all eligible image pairs.
 
+(ii) Compare the two classifiers. Use ROC curves and AUC. Which one is better? Discuss
+why could that be? Suggest appropriate values for T and report appropriate metrics. How
+would you balance sensitivity and specificity in this application? Which of the two might
+be more important, and why? Why might classification accuracy alone be a misleading
+performance measure for this dataset?
